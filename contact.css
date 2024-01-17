@@ -1,0 +1,67 @@
+
+.contact-container{
+margin-left: 20rem;
+margin-right: 20rem;
+padding: 0;
+text-align: center;
+font-family:Calibri, 'Trebuchet MS', sans-serif; ;
+}
+.contact-tab {
+    position: absolute;
+    width: 10em;
+    top: 70%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: white; 
+    color: #0f0e0e; 
+    border-radius: 5px;
+    font-size: 40px;
+    font-family:sans-serif; 
+    text-align: center;
+    font-style: none;
+}
+.cont-head h4{
+    margin-top: 0;
+    font-size: 50px;
+    
+}
+.Contact-method{
+    position: relative;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+}
+.Address p{
+    text-align: left;
+    margin-left: 12rem;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+.Address h5 {
+    margin-top: 0px;
+    font-size: large;
+    text-align: left;
+    margin-left: 12rem;
+    font-weight:lighter ;
+}
+.Address p{
+  
+    background-color: #0f0e0e;
+    font-size: large;
+    color: white;
+    padding: 0;
+    
+}
+.Phone-contact{
+    font-size: larger;
+}
+
+.instra-contact ul{
+    list-style: none;
+    font-size: larger;
+}
+.Facebook-contact{
+    font-size:larger ;
+}
+.Twitter-contact{
+    font-size:larger ;
+}

@@ -1,0 +1,261 @@
+html body{
+    margin: 0px;
+    padding: 0;
+    font-weight: bolder; 
+    position: relative;
+    /* height: 100vh; */
+    
+     
+}
+
+  
+.nav_container{
+    margin-left: 30%;
+  color: rgb(10, 10, 10);
+  display: grid;
+  min-height: 60px;
+  grid-auto-flow: column;
+  grid-template-columns: 0.2fr 2fr  1fr  ;
+  background-color: hwb(270 97% 2% / 0.905);
+  grid-gap: 1.5em;
+  padding: 0 20px;
+ 
+
+}
+#site_logo {
+   float: right;
+   /* vertical-align: middle; */
+   
+  }
+
+  /* #site_logo span {
+    color: #0474bc;
+  } */
+  .tab_menu ul{  
+    position:absolute;
+    font-weight: bolder;
+    padding-bottom: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    /* display: grid; */
+    justify-content: center;
+    align-items: center;
+    /* grid-auto-flow: column; */
+    grid-gap: 3.5em;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .tab_menu ul li{
+    background-color: white;
+    padding: 5px;
+    color: whitesmoke;
+  }
+
+.first_partA{
+    position: relative;
+    height: 600px;
+    background-color: #dce0e0;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+    
+}
+  footer{
+    height: 2rem;
+    top: 35rem;;
+    position:relative;
+    background-color: rgb(162, 78, 227);
+  }
+  .carousel-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-right: 10rem;
+    overflow: hidden;
+  }
+ 
+
+  .carousel {
+
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel img {
+   opacity: 1;
+    width: 80%;
+    height:50%;
+    object-fit:cover;
+  }
+
+  /* Style the navigation buttons */
+  .carousel-btn {
+    position: absolute;
+   
+    cursor: pointer;
+    font-size: 100px;
+    color: rgb(33, 55, 138);
+    font-weight: bolder;
+    background:transparent;
+    border: none;
+    outline: none;
+  }
+
+  /* Position the navigation buttons */
+  .prev-btn {
+
+    position: absolute;
+    top: 50%;
+    left: 1px;
+    border: 1px ;
+    transform: translateY(-50%);
+  }
+
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    right: 1px;
+ 
+    border: 1px ;
+    transform: translateY(-50%);
+  }
+  .logo-carousel{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    top: 15%; 
+    left: 46%; 
+  }
+  .logo-carousel img{
+    width: 200px;
+    height: 250px;
+   
+  }
+
+  .Call-tab{
+  position: absolute;
+  width: 10em;
+  top: 70%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: white; 
+  color: #0f0e0e; 
+  border-radius: 5px;
+  font-size: 20px;
+  font-family:sans-serif; 
+  text-align: center;
+  font-style: none;
+  }
+  .Call-tab:hover{
+background-color: blueviolet;
+color: white;
+  }
+
+  .Service{
+    position: relative;
+    margin-left: 60rem;
+    margin-top: -2rem;
+    text-align: left;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .Service h2{
+    text-decoration: underline;
+    font-size: larger;
+    margin-left: 0rem;
+    background-color: #fcfcfc;
+    color: #0f0e0e;
+    
+  }
+
+  .main-message{
+    position: relative;
+    text-align: center;
+    font-family: 'Helvetica Neue', ;
+  }
+  .main-message h5{
+    margin-top: 70px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-weight: lighter;
+
+  }
+
+  .main-message h2{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size:larger;
+    font-weight: bold;
+  }
+  .main-message h6{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size:larger;
+    font-weight:lighter;
+    margin-left: 35em;
+    margin-right: 35em;
+  }
+  .main-message p{
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    width: 150px;
+    margin-left: 50%;
+    color: white;
+    padding: 5px;
+    background-color: #0f0e0e;
+  }
+  
+
+  /* Style the Calendar */
+/* 
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 4px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  td {
+    cursor: pointer;
+  }
+
+  .selected {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .section_A_1{
+    
+    background-color: #9ea0a0;
+  }
+  .section_A_2{
+    position: relative;
+    
+   
+  }
+
+  .section_A_2b{
+
+    height: 70%;
+  } */
+
+  /* .recent_video{
+    background-color: #180b0b;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  } */
+
+  /* #clock_time{
+  font-size: 50px;
+  color: color-mix(in srgb-linear, Red 50%, blue 50%);
+  font-weight: bold;
+
+  } */
