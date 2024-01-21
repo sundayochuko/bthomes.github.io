@@ -67,6 +67,13 @@ html body{
     position:relative;
     background-color: rgb(162, 78, 227);
   }
+
+  .kgh{
+    background-image: ;
+    height: inherit;
+
+  }
+
   .carousel-container {
     position: relative;
     width: 100%;
@@ -77,7 +84,6 @@ html body{
  
 
   .carousel {
-
     display: flex;
     transition: transform 0.5s ease-in-out;
   }
@@ -92,7 +98,6 @@ html body{
   /* Style the navigation buttons */
   .carousel-btn {
     position: absolute;
-   
     cursor: pointer;
     font-size: 100px;
     color: rgb(33, 55, 138);
@@ -104,7 +109,6 @@ html body{
 
   /* Position the navigation buttons */
   .prev-btn {
-
     position: absolute;
     top: 50%;
     left: 1px;
@@ -168,6 +172,10 @@ color: white;
     
   }
 
+  .mobile-header {
+    display: none;
+  }
+
   .main-message{
     position: relative;
     text-align: center;
@@ -203,8 +211,18 @@ color: white;
     padding: 5px;
     background-color: #0f0e0e;
   }
-  
 
+  @media (max-width: 425px) {
+    .check-carousel  {
+      display: none;
+    }
+ .mobile-header {
+    display: block;
+    height: 500px;
+    width: 80vw;
+    background-color: red;
+  } }
+  
   /* Style the Calendar */
 /* 
   
